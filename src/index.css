@@ -1,16 +1,2 @@
-@font-face { 
-    font-family: Gumela;
-    src: local(Gumela);
-    src: url('../src/fonts/GumelaRegular.otf');
-  } 
-  @font-face { 
-    font-family: Gudea;
-    src: local(Gudea);
-    src: url('../src/fonts/Gudea-Regular.ttf');
-  } 
-  .change{
-    font-family: 'Gumela'; 
-   font-weight: bold;
-   font-size: 50px;
- }
+
  
