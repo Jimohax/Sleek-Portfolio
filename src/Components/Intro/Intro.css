@@ -1,0 +1,96 @@
+.Intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+    
+
+}
+.i-left{
+    
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 1;
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.i-button{
+    
+    top: 10rem;
+    height: 2rem;
+    width: 6rem;
+}
+.i-name>:nth-child(1){
+    font-weight: bold;
+    color: var(--black);
+    font-size: 3rem;
+}
+.i-name>:nth-child(2){
+    font-weight: bold;
+    color: var(--orange);
+    font-size: 3rem;
+}
+.i-name>:nth-child(3){
+    font-weight: 100;
+    color: var(--gray);
+    font-size: 20px;
+    margin-top: 10px;
+}
+.i-icons{
+    display: flex;
+    
+
+}
+.i-icons>*{
+    transform: scale(0.5);
+    cursor: pointer;
+}
+
+.i-right{
+flex: 1;
+position: relative;
+}
+
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+.i-right>:nth-child(1){
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
+}
+.i-right>:nth-child(2){
+    transform: scale(0.67);
+    left: -3rem;
+    top: -4.6rem;
+}
+.i-right>:nth-child(3){
+    transform: scale(1.4);
+    left:2%;
+    
+}
+
+.right{
+    content: "";
+    height: 5rem;
+    width: 10rem;
+    background-color: aqua;
+}
+.i-float{
+    position: relative;
+}
+.i-float>:nth-child(1){
+    position: absolute;
+    top: -4rem;
+    left: -4rem;
+}
+.i-float>:nth-child(2){
+    position: absolute;
+    top: 15rem;
+    right: -1rem;
+}

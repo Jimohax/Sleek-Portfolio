@@ -15,10 +15,10 @@ const Navbar = () => {
                     <li>Services</li>
                     <li>Experience</li>
                     <li>Portflio</li>
-                    <li>Testimonials</li>
+                    <li>Testimonial</li>
                 </ul>
             </div>
-            <button className="button n-button">Contact Us</button>
+            <button className="button n-button">Contact</button>
         </div>
     </div>
   )
