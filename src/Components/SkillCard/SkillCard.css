@@ -1,0 +1,41 @@
+.SkillCards{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.SkillCard{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 18rem;
+    background: rgba(225, 225, 225, 0.26);
+    align-items: center;
+    justify-content: center;
+    border: 7px solid var(--orange);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: var(--boxShadow2);
+    
+}
+.SkillCard>:nth-child(1){
+    transform: scale(0.7);
+}
+.skillTag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.s-button{
+    border: none;
+    background: white;
+    box-shadow: var(--boxShadow2);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #5290FD;
+}

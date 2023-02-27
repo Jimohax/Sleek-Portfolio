@@ -1,0 +1,47 @@
+.Section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 77vh;
+}
+.Sec2-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.Sec2-right{
+    flex: 1;
+    display: flex;
+    
+}
+.Sec2Title{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Sec2Title>:nth-child(1){
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--black);
+}
+.Sec2Title>:nth-child(2){
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--orange);
+}
+.Sec2Title>:nth-child(3){
+    font-size: 20px;
+    font-weight: 100;
+    color: var(--gray);
+    margin-top: 1rem;
+}
+.section2button{
+    width: 8rem; 
+}
+.card{
+    position: relative;
+}
+.card>*{
+    position: absolute;
+}
