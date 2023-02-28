@@ -1,0 +1,16 @@
+.works{
+    height: 70vh;
+    display: flex;
+    padding: 0rem 3rem orem 3rem;
+}
+
+.main{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: var(--boxShadow2);
+}
+.w-circles{
+    flex: 1;
+}

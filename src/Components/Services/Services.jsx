@@ -4,6 +4,7 @@ import './Services.css'
 import glasses from '../../img/glasses.png'
 import humble from '../../img/humble.png'
 import heart from '../../img/heartemoji.png'
+import cv from './cv.pdf'
 
 const Services = () => {
   return (
@@ -14,10 +15,13 @@ const Services = () => {
                   <span>Services</span>
                   <span>This is just a glypse of my super powers. There is more i can do, as i go above and beyond just to  give my clients the very best with touching edge technology</span>
               </div>
+              <a href={cv} download>
               <button className="button section2button">Download CV</button>
+
+              </a>
               <div
             className="blur"
-            style={{ background: "#ABF1FF94" }}
+            style={{ background: "#ABF1FF94", top: '160%', left : ' 0%' }}
             ></div>
         </div>
         <div className="Sec2-right">
@@ -38,6 +42,7 @@ const Services = () => {
               emoji={humble}
               />
             </div>
+            <div className='blur s-blur2' style={{background: 'var(--purple)'}}></div>
         </div>
     </div>
   )
