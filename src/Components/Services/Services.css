@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 77vh;
+    height: 100vh;
 }
 .Sec2-left{
     flex: 1;
@@ -12,9 +12,12 @@
 }
 .Sec2-right{
     flex: 1;
-    display: flex;
+    /* display: flex; */
+    position: relative;
     
+       
 }
+
 .Sec2Title{
     display: flex;
     flex-direction: column;
@@ -40,8 +43,28 @@
     width: 8rem; 
 }
 .card{
-    position: relative;
+    width: 11rem;
+    height: 15rem;
+/* position: relative; */
+    
 }
-.card>*{
-    position: absolute;
+
+.card>:nth-child(1){
+    position: absolute;    
+    right : 10%;
+    top: -40%
+    
+
+}
+.card>:nth-child(2){   
+    position: absolute; 
+    top : 70%;
+    left: -20%
+
+}
+.card>:nth-child(3){   
+    position: absolute; 
+    top : 120%;
+    left: 35%
+
 }
