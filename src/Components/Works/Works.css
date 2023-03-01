@@ -1,7 +1,7 @@
 .works{
     height: 70vh;
     display: flex;
-    padding: 0rem 3rem orem 3rem;
+    padding: 0rem 6rem 0rem 6rem;
 }
 
 .main{
@@ -9,8 +9,61 @@
     width: 20rem;
     border-radius: 100%;
     background-color: white;
-    box-shadow: var(--boxShadow2);
+    box-shadow: var(--smboxShadow);
+    position: relative;
+    right : 0%;
+    flex-wrap: wrap;
+    
+    
+   
+    
+
 }
 .w-circles{
+    flex: 1;  
+    display: flex;
+    /* position: relative; */
+    
+    align-items: center;
+    justify-content: center;
+    
+
+        
+}
+.awesome{
     flex: 1;
+}
+.floating{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: var(--boxShadow2);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    
+}
+.main>*{
+    position: absolute;
+}
+.main>:nth-child(1){
+    top: -10%;
+    left: 30%
+}
+.main>:nth-child(2){
+    top: 30%;
+    left: -10%
+}
+.main>:nth-child(3){
+    bottom: -10%;
+    left: 30%
+}
+.main>:nth-child(4){
+    bottom: 30%;
+    right: -10%
+}
+.floating>img{
+    transform: scale(0.7);
 }

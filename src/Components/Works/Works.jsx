@@ -1,5 +1,10 @@
 import React from 'react'
 import './Works.css'
+import fiverr from '../../img/fiverr.png'
+import shopify from '../../img/Shopify.png'
+import upwork from '../../img/Upwork.png'
+import amazon from '../../img/amazon.png'
+import facebook from '../../img/Facebook.png'
 
 const Works = () => {
   return (
@@ -26,9 +31,22 @@ const Works = () => {
         </div>
         <div className='w-circles'>
             <div className="main">
-            <div className="floating">
-                
-            </div>
+                {/*<img src={facebook} alt="" /> */}
+                <div className="floating">
+                    <img src={fiverr} alt="" />
+                </div>
+                <div className="floating">
+                    <img src={shopify} alt="" />
+                </div>
+                <div className="floating">
+                    <img src={upwork} alt="" />
+                </div>
+                <div className="floating">
+                    <img src={amazon} alt="" />
+                </div>
+                <div className="floating">
+                    <img src={facebook} alt="" />
+                </div>
             </div>
             
         </div>
