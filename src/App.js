@@ -1,6 +1,7 @@
 import './App.css'
 import Contact from './Components/Contact/Contact';
 import Experiences from './Components/Experiences/Experiences.jsx';
+import Footer from './Components/Footer/Footer';
 import Intro from './Components/Intro/Intro';
 
 import Navbar from "./Components/Navbar/Navbar";
@@ -20,6 +21,7 @@ function App() {
       <Portfolio/>
       <Testimonials/>
       <Contact/>
+      <Footer/>
             
     </div>
   );

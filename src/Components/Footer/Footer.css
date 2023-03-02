@@ -1,0 +1,30 @@
+.footer{
+    height: 70vh;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    margin-top: -5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.footer>img{
+    width: 100%;
+    
+}
+.f-content{
+    position: absolute;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    color: white;
+    margin-top: 3rem;
+    gap: 1rem;
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+}
+.f-icon{
+    display: flex;
+    gap: 2rem;
+}
