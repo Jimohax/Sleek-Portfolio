@@ -6,8 +6,10 @@
     justify-content: center;
     gap: 2rem;
     position: relative;
-    padding: 0rem 3rem orem 3rem;
+    padding: 0rem 5rem 0rem 5rem;
+
     margin-top: 3rem;
+    margin-bottom: 4rem;
 
 }
 
@@ -45,4 +47,28 @@
     width: 30rem;
     height: 12rem;
     /* styles same as work.css */
+    background: rgba(255, 255, 255, 0.26) ;
+    border: 7px solid var(--blueCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+.test-card>img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+.test-card>span{
+    color: var(--gray);
+}
+
+/* slider */
+.testimonials .swiper{
+    width: 100%;
+    height: 70%;
+}
+.testimonials .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

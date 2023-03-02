@@ -1,4 +1,5 @@
 import './App.css'
+import Contact from './Components/Contact/Contact';
 import Experiences from './Components/Experiences/Experiences.jsx';
 import Intro from './Components/Intro/Intro';
 
@@ -18,6 +19,7 @@ function App() {
       <Works/>
       <Portfolio/>
       <Testimonials/>
+      <Contact/>
             
     </div>
   );

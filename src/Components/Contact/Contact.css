@@ -1,0 +1,42 @@
+.contact{
+    height: 70vh;
+    display: flex;
+    padding: 0rem 3rem 0rem 3rem;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.c-left{
+    
+    text-align: center;
+}
+.cRight{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    justify-content: flex-start;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+    
+}
+.putin{
+    border: 2px solid var(--yellow);
+    outline: none;
+    height: 2rem;
+    width: 20rem;
+    border-radius: 8px;
+    padding-left: 1rem;
+    font-style: 16px;
+}
+
+textarea{
+    height: 4rem!important;
+}
