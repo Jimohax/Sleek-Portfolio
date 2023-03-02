@@ -1,7 +1,8 @@
 .works{
     height: 70vh;
     display: flex;
-    padding: 0rem 6rem 0rem 6rem;
+    padding: 0rem 3rem 0rem 3rem;
+    margin-bottom: 3rem;
 }
 
 .main{
@@ -22,7 +23,7 @@
 .w-circles{
     flex: 1;  
     display: flex;
-    /* position: relative; */
+    position: relative;
     
     align-items: center;
     justify-content: center;
@@ -38,11 +39,13 @@
     width: 7rem;
     border-radius: 100%;
     background-color: white;
-    box-shadow: var(--boxShadow2);
+    box-shadow: var(--smboxShadow);
     align-items: center;
     justify-content: center;
     align-content: center;
     display: flex;
+    transform: scale(0.9);
+    border: 5px solid #ebebeb;
     
 }
 .main>*{
@@ -58,12 +61,35 @@
 }
 .main>:nth-child(3){
     bottom: -10%;
-    left: 30%
+    left: 40%
 }
 .main>:nth-child(4){
-    bottom: 30%;
-    right: -10%
+    bottom: 35%;
+    right: -15%
+}
+.main>:nth-child(5){
+   top: 30%;
+    right: 30%
 }
 .floating>img{
     transform: scale(0.7);
+}
+.back-circle{
+    position: absolute;
+    height: 12rem;
+    width: 12rem;
+    
+    border-radius: 100%;
+    z-index: -1;
+}
+.blue-circle{
+    background-color: #1949B8;
+   left: 16rem;
+   top: 2rem;
+
+}
+.yellow-circle{
+    background-color: #F5C32C;
+    left: 17rem;
+    top: 11rem;
 }

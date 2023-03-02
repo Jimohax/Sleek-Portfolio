@@ -3,7 +3,9 @@ import Experiences from './Components/Experiences/Experiences.jsx';
 import Intro from './Components/Intro/Intro';
 
 import Navbar from "./Components/Navbar/Navbar";
+import Portfolio from './Components/Portfolio/Portfolio';
 import Services from './Components/Services/Services';
+import Testimonials from './Components/Testimonials/Testimonials';
 import Works from './Components/Works/Works';
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Services/>
       <Experiences />
       <Works/>
+      <Portfolio/>
+      <Testimonials/>
             
     </div>
   );

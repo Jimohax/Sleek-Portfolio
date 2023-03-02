@@ -48,7 +48,8 @@ const Works = () => {
                     <img src={facebook} alt="" />
                 </div>
             </div>
-            
+            <div className=" back-circle blue-circle"></div>
+            <div className="back-circle yellow-circle"></div>
         </div>
     </div>
   )
