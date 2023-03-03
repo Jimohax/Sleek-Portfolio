@@ -1,7 +1,7 @@
 .toggle{
     border: 3px solid var(--orange);
     border-radius: 1rem;
-    width: 3rem;
+    /* width: 3rem; */
     align-items: center;
     justify-content: space-between;
     padding: 2px;
@@ -11,14 +11,15 @@
     
 }
 .t-button{
-    width: 1.5rem;
-    height: 1.5rem;
+    
     position: absolute;
     background-color: var(--orange);
     border-radius: 100%;
-    left: 0%;
+    
     
 }
 .toggle>*{
     color: var(--orange);
+    width: 1rem;
+    height: 1rem;
 }
