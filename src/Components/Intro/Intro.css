@@ -18,8 +18,8 @@
 
 .i-button {
 	top: 10rem;
-	height: 2rem;
-	width: 6rem;
+	/* height: 2rem; */
+	width: 7rem;
 }
 .i-name > :nth-child(1) {
 	font-weight: bold;

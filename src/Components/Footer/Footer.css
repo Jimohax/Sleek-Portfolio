@@ -16,7 +16,7 @@
 .f-content{
     position: absolute;
     flex-direction: column;
-    margin-bottom: 2rem;
+    
     color: white;
     margin-top: 3rem;
     gap: 1rem;

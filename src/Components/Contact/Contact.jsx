@@ -64,7 +64,7 @@ const Contact = () => {
 						cols="30"
 						rows="20"
 					></textarea>
-					<input type="submit" value="Send" className="button" />
+					<input type="submit" value="Send" className="button c-button" />
 					<span>{done && "Thank you for contacting me!"}</span>
 
 					<div
