@@ -11,12 +11,20 @@ import Crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import IFloat from "../IFloat/IFloat";
 
+import { ThemeContext } from "../../Context";
+import { useContext } from "react";
+import {motion} from 'framer-motion'
+
+
 const Intro = () => {
+	const theme = useContext(ThemeContext);
+	const darkMode = theme.state.darkMode;
+
 	return (
 		<div className="Intro">
 			<div className="i-left">
 				<div className="i-name">
-					<span>Hi! I Am</span>
+					<span style={darkMode ? {color: 'white'}:{color: 'var(--black)'} }>Hi! I Am</span>
 					<span>Jamie Ohakwe</span>
 					<span>
 						Full Stack Developer with an incredible level of

@@ -6,12 +6,18 @@ import upwork from '../../img/Upwork.png'
 import amazon from '../../img/amazon.png'
 import facebook from '../../img/Facebook.png'
 
+import { ThemeContext } from "../../Context";
+import { useContext } from "react"
+
 const Works = () => {
+    const theme = useContext(ThemeContext);
+	const darkMode = theme.state.darkMode;
+
   return (
     <div className="works">
          <div className="Sec2-left awesome">
               <div className="Sec2Title">
-                  <span>Works for all these</span>
+                  <span style={{color: darkMode? 'white': ''}}>Works for all these</span>
                   <span>Brands & Client</span>
                   <span>This is just a glypse of my super powers. 
                     <br />

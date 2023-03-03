@@ -10,8 +10,13 @@ import profile4 from "../../img/profile4.jpg";
 import profile5 from "../../img/profile5.jpg";
 import profile6 from "../../img/profile6.jpg";
 import { Pagination } from "swiper";
+import { ThemeContext } from "../../Context";
+import { useContext } from "react"
 
 const Testimonials = () => {
+	const theme = useContext(ThemeContext);
+	const darkMode = theme.state.darkMode;
+
 	const clients = [
 		{
 			image:  profile1,
@@ -48,7 +53,7 @@ const Testimonials = () => {
 	return (
 		<div className="testimonials">
 			<div className="heading">
-				<span>Clients always get </span>
+				<span style={{color: darkMode? 'white': ''}}>Clients always get </span>
 				<span>Exceptional work </span>
 				<span>from me...</span>
 			</div>

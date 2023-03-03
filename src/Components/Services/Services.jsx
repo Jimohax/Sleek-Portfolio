@@ -6,12 +6,19 @@ import humble from '../../img/humble.png'
 import heart from '../../img/heartemoji.png'
 import cv from './cv.pdf'
 
+import { ThemeContext } from "../../Context";
+import { useContext } from "react"
+
 const Services = () => {
+
+  const theme = useContext(ThemeContext);
+	const darkMode = theme.state.darkMode;
+
   return (
     <div className="Section2">
         <div className="Sec2-left">
               <div className="Sec2Title">
-                  <span>My Awesome</span>
+                  <span style={darkMode? {color: 'white'}:{color: 'var(--black)'}}>My Awesome</span>
                   <span>Services</span>
                   <span>This is just a glypse of my super powers. There is more i can do, as i go above and beyond just to  give my clients the very best with touching edge technology</span>
               </div>
