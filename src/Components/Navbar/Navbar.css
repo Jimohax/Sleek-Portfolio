@@ -29,6 +29,7 @@
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
+    cursor: pointer;
 }
 
 .nav-list>ul>li:hover{
@@ -39,3 +40,13 @@
 .n-button{
     flex: 2;
 }
+
+
+@media screen and (max-width: 480px){
+  .nav-list{
+    display: none;
+  }
+  .n-button{
+    display: none;
+  }
+} 

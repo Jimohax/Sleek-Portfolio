@@ -19,7 +19,7 @@ const Services = () => {
   
 
   return (
-    <div className="Section2">
+    <div className="Section2" id='Services'>
         <div className="Sec2-left">
               <div className="Sec2Title">
                   <span style={darkMode? {color: 'white'}:{color: 'var(--black)'}}>My Awesome</span>
@@ -62,7 +62,7 @@ const Services = () => {
               </motion.div>
               
               <motion.div
-              initial={{top: '170%'}}
+              initial={{top: '170%', left: '35% '}}
               whileInView={{top: '120%', left: '35% '}}
               transition={transition}
               >
@@ -78,6 +78,6 @@ const Services = () => {
         </div>
     </div>
   )
-}
+} 
 
 export default Services

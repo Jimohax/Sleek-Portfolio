@@ -14,7 +14,7 @@ import { useContext } from "react"
 
 const Works = () => {
 
-    const transition = {duration: 1, type: 'spring'}
+    
 
     const theme = useContext(ThemeContext);
 	const darkMode = theme.state.darkMode;

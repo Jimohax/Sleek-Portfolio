@@ -75,3 +75,12 @@
     top: 7rem
     
     }
+
+    @media screen and (max-width: 480px){
+        .Section2{
+            margin-top: 0 !important;
+            flex-direction: column;
+            
+        }
+    } 
+    

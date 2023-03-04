@@ -51,7 +51,7 @@ const Testimonials = () => {
 	];
 
 	return (
-		<div className="testimonials">
+		<div className="testimonials" id="Testimonial">
 			<div className="heading">
 				<span style={{color: darkMode? 'white': ''}}>Clients always get </span>
 				<span>Exceptional work </span>
