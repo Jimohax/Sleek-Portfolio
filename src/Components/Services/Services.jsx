@@ -5,14 +5,18 @@ import glasses from '../../img/glasses.png'
 import humble from '../../img/humble.png'
 import heart from '../../img/heartemoji.png'
 import cv from './cv.pdf'
+import {motion} from 'framer-motion'
 
 import { ThemeContext } from "../../Context";
 import { useContext } from "react"
 
 const Services = () => {
+	const transition = {duration: 1, type: 'spring'}
 
   const theme = useContext(ThemeContext);
 	const darkMode = theme.state.darkMode;
+
+  
 
   return (
     <div className="Section2">
@@ -33,21 +37,42 @@ const Services = () => {
         </div>
         <div className="Sec2-right">
             <div className="card">
-              <SkillCard 
+              <motion.div 
+              initial={{right: '40%'}}
+              whileInView={{right: '10%' }}
+              transition={transition}
+              >
+              <SkillCard                          
               txt1="Design" 
               txt2="Photoshop, Figma"
               emoji={heart}
               />
-              <SkillCard 
+              </motion.div>
+              
+              <motion.div
+              initial={{left: '5%'}}
+              whileInView={{left: '-20%' }}
+              transition={transition}
+              >
+                <SkillCard 
               txt1="Frontend" 
               txt2="HTML, CSS, Javascript, React, Bootstrap"
               emoji={glasses}
               />
+              </motion.div>
+              
+              <motion.div
+              initial={{top: '170%'}}
+              whileInView={{top: '120%', left: '35% '}}
+              transition={transition}
+              >
               <SkillCard 
               txt1="Backend" 
               txt2="NodeJs, ExpressJs, MongoDB, Redux"
               emoji={humble}
               />
+              </motion.div>
+             
             </div>
             <div className='blur s-blur2' style={{background: 'var(--purple)'}}></div>
         </div>

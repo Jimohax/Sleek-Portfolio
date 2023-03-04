@@ -14,9 +14,13 @@ import IFloat from "../IFloat/IFloat";
 import { ThemeContext } from "../../Context";
 import { useContext } from "react";
 import {motion} from 'framer-motion'
+// import { useId } from 'react';
+// import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
+
 
 
 const Intro = () => {
+	const transition = {duration: 2, type: 'spring'}
 	const theme = useContext(ThemeContext);
 	const darkMode = theme.state.darkMode;
 
@@ -42,14 +46,28 @@ const Intro = () => {
 				<img src={Vector1} alt="" />
 				<img src={Vector2} alt="" />
 				<img src={Jamie} alt="" />
-				<img src={glassesimoji} alt="" />
 
-				<div style={{ top: "-20%", right: "50%" }}>
+				<motion.img 
+				
+				initial={{left: '-36%'}}				
+				whileInView={{left: '-24%'}}
+				transition={transition}
+				src={glassesimoji} alt="" />
+
+				< motion.div 
+				initial={{top: '-4%', left: '74%'}}
+				whileInView={{left: '68%'}}
+				transition={transition}
+				style={{ top: "-20%", right: "50%" }}>
 					<IFloat crown={Crown} tag1="Web" tag2="Developer" />
-				</div>
-				<div style={{ bottom: "30%", left: "10%" }}>
+				</motion.div>
+				<motion.div 
+				initial={{bottom: "30%", left: '-10%'}}
+				whileInView={{left: '10%'}}
+				transition={transition}
+				style={{ bottom: "30%", left: "10%" }}>
 					<IFloat crown={thumbup} tag1="Best Design" tag2="Award" /> 
-				</div>
+				</motion.div>
 				{/* Blur divs */}
 				<div
 					className="blur"

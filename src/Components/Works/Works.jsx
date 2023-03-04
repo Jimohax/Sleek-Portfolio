@@ -6,10 +6,16 @@ import upwork from '../../img/Upwork.png'
 import amazon from '../../img/amazon.png'
 import facebook from '../../img/Facebook.png'
 
+import {motion} from 'framer-motion'
+
+
 import { ThemeContext } from "../../Context";
 import { useContext } from "react"
 
 const Works = () => {
+
+    const transition = {duration: 1, type: 'spring'}
+
     const theme = useContext(ThemeContext);
 	const darkMode = theme.state.darkMode;
 
@@ -36,7 +42,13 @@ const Works = () => {
             ></div>
         </div>
         <div className='w-circles'>
-            <div className="main">
+            <motion.div 
+            initial={{rotate: 45}}
+            whileInView={{rotate:0}}
+            viewport={{margin: '-40px'}}
+            transition={{duration: 3.5, type: 'spring'}}
+            
+            className="main">
                 {/*<img src={facebook} alt="" /> */}
                 <div className="floating">
                     <img src={fiverr} alt="" />
@@ -53,7 +65,7 @@ const Works = () => {
                 <div className="floating">
                     <img src={facebook} alt="" />
                 </div>
-            </div>
+            </motion.div>
             <div className=" back-circle blue-circle"></div>
             <div className="back-circle yellow-circle"></div>
         </div>
