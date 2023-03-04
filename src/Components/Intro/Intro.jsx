@@ -55,14 +55,14 @@ const Intro = () => {
 				src={glassesimoji} alt="" />
 
 				< motion.div className="float-div"
-				initial={{top: '-4%', left: '74%'}}
-				whileInView={{left: '68%'}}
+				initial={{top: '-20%', right: '30%'}}
+				whileInView={{right: '50%'}}
 				transition={transition}
 				style={{ top: "-20%", right: "50%" }}>
 					<IFloat crown={Crown} tag1="Web" tag2="Developer" />
 				</motion.div>
 				<motion.div className="float-div"
-				initial={{bottom: "35%", left: '-10%'}}
+				initial={{bottom: "30%", left: '-10%'}}
 				whileInView={{left: '10%'}}
 				transition={transition}
 				style={{ bottom: "30%", left: "10%" }}>

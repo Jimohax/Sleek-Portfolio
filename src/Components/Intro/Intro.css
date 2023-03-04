@@ -94,6 +94,7 @@
 	flex-direction: column;
 	padding: 0rem 1rem 0rem 1rem;
 	margin-top: 2rem;
+	height: 50rem;
   }
   .i-right{
 	transform: scale(0.8);
@@ -107,12 +108,15 @@
 	top: -3rem !important
 }
 .float-div:nth-of-type(2){
-	top: 19rem !important;
-	left: 2rem !important
+	/* top: 19rem ;
+	left: 2rem ; */
 }
 
 .i-left{
-	gap: 1rem;
+	gap: 3rem;
 }
 
+.Sec2-right{
+	transform: scale(0.7);
+}
 } 

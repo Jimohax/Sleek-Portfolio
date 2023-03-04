@@ -12,6 +12,7 @@
     flex-direction: column;
     gap: 4rem;
     justify-content: center;
+    border: 2px solid red;
 }
 .Sec2-right{
     flex: 1;
@@ -78,9 +79,18 @@
 
     @media screen and (max-width: 480px){
         .Section2{
-            margin-top: 0 !important;
+            height: 64rem;
+            
             flex-direction: column;
+            position: relative;
+            top: 18rem;
+            padding: 0rem 1rem 0rem 1rem;
+
             
         }
+        .card {
+            position: relative;
+        }
+        
     } 
     
