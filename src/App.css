@@ -39,13 +39,13 @@
   border: 1px solid;
 }
 
+
 @media screen and (max-width: 480px){
   .App{
-    /* padding: 0.5rem 1rem; */
-    /* padding-right: 2rem; */
+    padding: 0.5rem 1rem;
+    
   }
 } 
-
   
 
   
