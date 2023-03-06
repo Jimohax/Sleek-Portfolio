@@ -46,3 +46,23 @@ textarea{
 .c-button{
     width: 6rem;
 }
+
+/* Mobile */
+
+@media screen and (max-width: 480px){
+  .contact{
+    padding: 0;
+    gap: 2rem;
+    flex-direction: column;
+  }
+  .form{
+    transform: scale(0.8);
+  }
+  .s-blur2{
+
+    display: none;
+  }
+  .c-button{
+    margin-bottom: 2rem;
+  }
+} 

@@ -4,7 +4,7 @@
     justify-content: center;
     height: 70vh;
     padding: 2rem 3rem 2rem 3rem;
-    border: 2px sold blue;
+    /* border: 2px sold blue; */
 
 }
 .Sec2-left{
@@ -13,13 +13,15 @@
     flex-direction: column;
     gap: 4rem;
     justify-content: center;
+    /* border: 2px solid red; */
+
     
 }
 .Sec2-right{
     flex: 1;
     /* display: flex; */
     position: relative;
-    
+    /* border: 2px solid red; */
        
 }
 
@@ -86,5 +88,23 @@
 	margin: 2rem 0rem; 
 	flex-direction: column;
     gap: 5rem;
+    height: 66rem;
+        }
+        .card{
+        display: flex;
+        flex-direction: column;
+        /* gap: 17rem; */
+        width: 15rem;
+        gap: 1rem;
+        /* border: 2px solid red; */
+    /* position: static; */
+        }
+        .s-blur{
+            display: none;
+
+        }
+        .card>*{
+            position: static !important;
+            
         }
     } 

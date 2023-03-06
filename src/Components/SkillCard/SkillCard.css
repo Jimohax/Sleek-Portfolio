@@ -41,3 +41,9 @@
     color: #5290FD;
 }
 
+/* Mobile */
+@media screen and (max-width: 480px){
+  .SkillCard{
+    /* width: auto; */
+  }
+} 

@@ -57,11 +57,12 @@
 }
 .main>:nth-child(2){
     top: 30%;
-    left: -10%
+    
+    left: -18%;
 }
 .main>:nth-child(3){
     bottom: -10%;
-    left: 40%
+    left: 37%
 }
 .main>:nth-child(4){
     bottom: 35%;
@@ -93,3 +94,29 @@
     left: 17rem;
     top: 11rem;
 }
+
+/* Mobile */
+@media screen and (max-width: 480px){
+ .works{
+    height: 55rem;
+    flex-direction: column;
+    padding: 0;
+    gap: 5rem;
+ }
+ .w-circles{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    transform: scale(0.7);
+
+ }
+ .main{
+    position: static;
+
+ }
+ .back-circle{
+    left: 8rem !important;
+    
+ }
+ 
+} 

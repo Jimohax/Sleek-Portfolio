@@ -6,6 +6,7 @@
     justify-content: center;
     gap: 10rem;
     /* padding: 0rem 6rem 0rem 6rem; */
+    border: 2px solid blue;
 
 }
 .e-content{
@@ -50,3 +51,16 @@
 .e-label>:nth-child(2){
     color: var(--orange);
 }
+
+/* Mobile */
+
+@media screen and (max-width: 480px){
+  .experiences{
+    height: 20rem;
+    margin-top: 27rem;
+    gap: 1rem;
+  }
+  .experiences>*{
+    transform: scale(0.8);
+  }
+} 
