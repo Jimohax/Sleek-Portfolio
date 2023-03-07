@@ -30,9 +30,11 @@ const Intro = () => {
 				<div className="i-name">
 					<span style={darkMode ? {color: 'white'}:{color: 'var(--black)'} }>Hi! I Am</span>
 					<span>Jamie Ohakwe</span>
+					<span>Full Stack Software Engineer</span>
 					<span>
-						Full Stack Developer with an incredible level of
-						creativity and experience in web designing
+						Mongo DB | Express | React | Node <br />
+						If what  you are looking for is not just the best software engineer but also a resilient problem solver
+						and a winner, <br /> then i am your guy.
 					</span>
 				</div>
 				<button className="button i-button">Hire Me</button>

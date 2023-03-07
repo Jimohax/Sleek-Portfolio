@@ -53,7 +53,23 @@
 }
 .main>:nth-child(1){
     top: -10%;
-    left: 30%
+    left: 30%;
+    
+}
+.floating:nth-child(1)>img{
+    transform: scale(0.4);
+}
+.floating:nth-child(2)>img{
+    transform: scale(0.25);
+}
+.floating:nth-child(3)>img{
+    transform: scale(0.3);
+}
+.floating:nth-child(5)>img{
+    transform: scale(0.3);
+}
+.floating:nth-child(4)>img{
+    transform: scale(0.35);
 }
 .main>:nth-child(2){
     top: 30%;

@@ -24,7 +24,11 @@ const Services = () => {
               <div className="Sec2Title">
                   <span style={darkMode? {color: 'white'}:{color: 'var(--black)'}}>My Awesome</span>
                   <span>Services</span>
-                  <span>This is just a glypse of my super powers. There is more i can do, as i go above and beyond just to  give my clients the very best with touching edge technology</span>
+                  <span>My super powers lie in problem solving and emergency deliveries. <br />
+                  I love problems ! <br />
+                  My tech skills do not limit me in my quest for finding solutions to problems. <br />
+                  I create modern and sleek user friendly web solutions.
+                  </span>
               </div>
               <a href={cv} download>
               <button className="button section2button">Download CV</button>

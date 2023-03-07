@@ -1,10 +1,10 @@
 import React from 'react'
 import './Works.css'
-import fiverr from '../../img/fiverr.png'
-import shopify from '../../img/Shopify.png'
-import upwork from '../../img/Upwork.png'
-import amazon from '../../img/amazon.png'
-import facebook from '../../img/Facebook.png'
+import orglearn from '../../img/orglearn.png'
+import rescript from '../../img/rescript.png'
+import Berkley from '../../img/Berkley.png'
+import tribe from '../../img/tribe.png'
+import workmate from '../../img/workmate.png'
 
 import {motion} from 'framer-motion'
 
@@ -23,13 +23,10 @@ const Works = () => {
     <div className="works">
          <div className="Sec2-left awesome">
               <div className="Sec2Title">
-                  <span style={{color: darkMode? 'white': ''}}>Works for all these</span>
+                  <span style={{color: darkMode? 'white': ''}}>I have worked for these</span>
                   <span>Brands & Client</span>
-                  <span>This is just a glypse of my super powers. 
-                    <br />
-                    There is more i can do, as i go above and beyond just to  
-                    <br />
-                    give my clients the very best with touching edge technology
+                  <span>Over the years I have helped several brands get through mad rushes, Unrealistic goals, 
+                    impossible deadlines and hard times with down-to-earth, on-time solutions to problems. 
                   </span>
               </div>
               
@@ -51,19 +48,19 @@ const Works = () => {
             className="main">
                 {/*<img src={facebook} alt="" /> */}
                 <div className="floating">
-                    <img src={fiverr} alt="" />
+                    <img src={orglearn} alt="" />
                 </div>
                 <div className="floating">
-                    <img src={shopify} alt="" />
+                    <img src={rescript} alt="" />
                 </div>
                 <div className="floating">
-                    <img src={upwork} alt="" />
+                    <img src={Berkley} alt="" />
                 </div>
                 <div className="floating">
-                    <img src={amazon} alt="" />
+                    <img src={tribe} alt="" />
                 </div>
                 <div className="floating">
-                    <img src={facebook} alt="" />
+                    <img src={workmate} alt="" />
                 </div>
             </motion.div>
             <div className=" back-circle blue-circle"></div>

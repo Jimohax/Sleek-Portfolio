@@ -25,7 +25,7 @@ const Experience = () => {
             </div>
         </div>
         <div className="e-content">
-            <div className="e-circle" style={{color: darkMode? 'black': ''}}>3+</div>
+            <div className="e-circle" style={{color: darkMode? 'black': ''}}>6+</div>
             <div className="e-label">
                 <span>companies</span>
                 <span>Work</span>
