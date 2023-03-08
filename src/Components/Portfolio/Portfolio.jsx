@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import socials from '../../img/socials.png'
 import dashboard from '../../img/dashboard.png'
-import HOC from '../../img/hoc.png'
+import Notes from '../../img/Notes.png'
 import weather from '../../img/weather.png'
 import 'swiper/css'
 import { ThemeContext } from "../../Context";
@@ -26,7 +26,7 @@ const Portfolio = () => {
         >
             <SwiperSlide>
                 <img src={socials} alt="" />
-                <span>hey</span>
+                
             </SwiperSlide>
             <SwiperSlide>
                 <img src={dashboard} alt="" />
@@ -35,7 +35,7 @@ const Portfolio = () => {
                 <img src={weather} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={HOC} alt="" />
+                <img src={Notes} alt="" />
             </SwiperSlide>
         </Swiper>
 

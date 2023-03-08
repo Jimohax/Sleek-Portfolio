@@ -123,6 +123,7 @@
   }
   .float-div:nth-of-type(2){
 	left: 7% !important ;
+	bottom: 20% !important;
   }
   .i-right>img:nth-child(4){
 	left: -17% !important;

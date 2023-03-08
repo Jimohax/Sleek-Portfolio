@@ -3,10 +3,10 @@ import "./Testimonials.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/pagination";
 import "swiper/css";
-import profile1 from "../../img/profile1.jpg";
-import profile2 from "../../img/profile2.jpg";
-import profile3 from "../../img/profile3.jpg";
-import profile4 from "../../img/profile4.jpg";
+import daniel from "../../img/daniel.jpg";
+import moses from "../../img/moses.jpg";
+import onyia from "../../img/onyia.jpg";
+import patrick from "../../img/patrick.jpg";
 import profile5 from "../../img/profile5.jpg";
 import profile6 from "../../img/profile6.jpg";
 import { Pagination } from "swiper";
@@ -19,35 +19,26 @@ const Testimonials = () => {
 
 	const clients = [
 		{
-			image:  profile1,
+			image: moses ,
 			testimonial:
-				"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione expedita mollitia tenetur, error architecto tempora ut dolores sed quam, inventore est laudantium pariatur praesentium dignissimos!",
+				"Results-oriented, focused and self-motivated software engineer. He is a great team player and a unique team leader. ",
 		},
 		{
-			image:  profile2 ,
+			image:   daniel ,
 			testimonial:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, corrupti.",
+				"James is my go-to-guy. He is the one i call whenever i am in a tight spot. We have achieved so much together. My tech wingman ",
 		},
 		{
-			image:  profile3,
+			image:  onyia,
 			testimonial:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laborum magni optio? Quis incidunt commodi voluptate iure, rem ullam, reprehenderit unde culpa consequatur id ex. Veniam ab est voluptas adipisci quis in, consequatur modi laborum tempora temporibus dicta, recusandae eius.",
+				"Jamie is like a cheat code. An amazing guy to work with. His attention to details is indisputable. Any team he is in charge of wins. Period! ",
 		},
 		{
-			image:  profile4 ,
+			image:  patrick ,
 			testimonial:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quae, eaque doloribus dolor non quasi.",
+				'His favourite phrase is "I love problems" lol. I love working with him, he makes my job just simple and less stressful'
 		},
-		{
-			image:  profile5 ,
-			testimonial:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet reprehenderit nesciunt dicta perferendis quaerat necessitatibus et distinctio, eos blanditiis odio corrupti repudiandae obcaecati nam officiis beatae ratione voluptatibus odit vitae.",
-		},
-		{
-			image: profile6,
-			testimonial:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, dicta in fugiat aperiam deleniti facere, dolorem incidunt temporibus a optio nulla ipsa doloribus! Impedit rem minima aut dicta, rerum laudantium?",
-		},
+		
 	];
 
 	return (
