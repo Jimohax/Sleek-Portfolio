@@ -29,10 +29,10 @@
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
-.nav-list>ul>li:hover{
+.nav-list>ul>*:hover{
     cursor: pointer;
     color: var(--orange);
 

@@ -35,7 +35,7 @@ const Contact = () => {
 	}; 
 
 	return (
-		<div className="contact">
+		<div className="contact" id='contact'>
 			<div className="Sec2-left c-left">
 				<div className="Sec2Title">
 					<span style={{color: darkMode? 'white': ''}}>Get in touch</span>

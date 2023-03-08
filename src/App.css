@@ -15,7 +15,7 @@
 .App{
   
     padding: 0.5rem 3.5rem;
-    /* overflow: hidden; */
+    overflow: hidden;
     color: var(--black);
     /* align-items: center;
     justify-content: center;     */
@@ -43,8 +43,11 @@
 @media screen and (max-width: 480px){
   .App{
     padding: 0.5rem 1rem;
+    /* overflow-x: hidden; */
+    border: 2px solid red;
     
   }
+  
 } 
   
 

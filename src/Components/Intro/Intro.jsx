@@ -5,7 +5,7 @@ import Github from "../../img/github.png";
 import Instagram from "../../img/instagram.png";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import Jamie from "../../img/Jamie.png";
+import pic3 from "../../img/pic3.png";
 import thumbup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
@@ -13,7 +13,8 @@ import IFloat from "../IFloat/IFloat";
 
 import { ThemeContext } from "../../Context";
 import { useContext } from "react";
-import {motion} from 'framer-motion'
+import {motion} from 'framer-motion';
+import { Link } from "react-scroll";
 // import { useId } from 'react';
 // import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
 
@@ -37,7 +38,14 @@ const Intro = () => {
 						and a winner, <br /> then i am your guy.
 					</span>
 				</div>
+				<Link
+				spy={true}
+				to={'contact'}
+				smooth={true}
+				>
+				
 				<button className="button i-button">Hire Me</button>
+				</Link>
 				<div className="i-icons">
 					<img src={Linkedin} alt="" />
 					<img src={Github} alt="" />
@@ -47,7 +55,8 @@ const Intro = () => {
 			<div className="i-right">
 				<img src={Vector1} alt="" />
 				<img src={Vector2} alt="" />
-				<img src={Jamie} alt="" />
+				<img src={pic3} alt="" />
+				{/* <img src={pic} alt="" /> */}
 
 				<motion.img 
 				

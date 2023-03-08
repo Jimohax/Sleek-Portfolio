@@ -134,5 +134,7 @@
     left: 8rem !important;
     
  }
-
+.w-blur{
+    display: none;
+}
 } 

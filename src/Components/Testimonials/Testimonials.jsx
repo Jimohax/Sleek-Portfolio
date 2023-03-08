@@ -55,7 +55,7 @@ const Testimonials = () => {
 			></div>
 			<div
 				className="blur t-blur2"
-				style={{ background: "skyblue", left: '3rem' }}
+				style={{ background: "skyblue", left: '3rem'}}
 			></div>
 
 			{/* Slider */}

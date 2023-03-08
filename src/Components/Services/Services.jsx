@@ -35,7 +35,7 @@ const Services = () => {
 
               </a>
               <div
-            className="blur"
+            className="blur s-blur"
             style={{ background: "#ABF1FF94", top: '160%', left : ' 0%' }}
             ></div>
         </div>

@@ -5,6 +5,7 @@ import rescript from '../../img/rescript.png'
 import Berkley from '../../img/Berkley.png'
 import tribe from '../../img/tribe.png'
 import workmate from '../../img/workmate.png'
+import { Link } from "react-scroll";
 
 import {motion} from 'framer-motion'
 
@@ -29,12 +30,18 @@ const Works = () => {
                     impossible deadlines and hard times with down-to-earth, on-time solutions to problems. 
                   </span>
               </div>
+              <Link
+              spy={true}
+              to={'contact'}
+              smooth={true}
+              >
               
               <button className="button section2button">Hire Me</button>
+              </Link>
 
               
               <div
-            className="blur"
+            className="blur w-blur"
             style={{ background: "#ABF1FF94", top: '160%', left : ' 0%' }}
             ></div>
         </div>
