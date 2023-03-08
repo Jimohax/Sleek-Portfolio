@@ -25,7 +25,7 @@ const Works = () => {
          <div className="Sec2-left awesome">
               <div className="Sec2Title">
                   <span style={{color: darkMode? 'white': ''}}>I have worked for these</span>
-                  <span>Brands & Client</span>
+                  <span>Brands & Clients</span>
                   <span>Over the years I have helped several brands get through mad rushes, Unrealistic goals, 
                     impossible deadlines and hard times with down-to-earth, on-time solutions to problems. 
                   </span>
